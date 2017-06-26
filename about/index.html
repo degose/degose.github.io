@@ -243,16 +243,6 @@
           </a>
         </li>
       
-        
-        <li class="menu-item menu-item-sitemap">
-          <a href="/sitemap.xml" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
-            
-            Sitemap
-          </a>
-        </li>
-      
 
       
     </ul>
@@ -295,6 +285,13 @@
           
   <div class="comments" id="comments">
     
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
   </div>
 
 
@@ -320,7 +317,7 @@
       <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
+               src="/images/default_avatar.png"
                alt="gose" />
           <p class="site-author-name" itemprop="name">gose</p>
            
@@ -500,6 +497,26 @@
 
   
 
+    
+      <script id="dsq-count-scr" src="https://gose.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/about/index.html';
+          this.page.identifier = 'about/index.html';
+          this.page.title = 'about';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://gose.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
 
 
 
@@ -518,10 +535,6 @@
   
 
 
-
-
-
-  
 
 
 
